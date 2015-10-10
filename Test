@@ -1,0 +1,12 @@
+#!/usr/bin/env python
+
+import binascii
+import bitstring
+import serial
+import struct
+import threading
+
+def onPoseEdge(pose, edge):
+	print("onPoseEdge: "+pose+", "+edge)
+
+
